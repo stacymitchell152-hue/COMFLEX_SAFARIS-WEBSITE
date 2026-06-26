@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chauffeured Services | Comflex_Safaris</title>
+      <!-- link external file  -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+
+     <!-- link to my javascript files  -->
+      <link rel="stylesheet" href="js/bootstrap.js">
+      
+      <style>
+                body{
+    background:#f8f9fa;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    height:400px;
+    object-fit:cover;
+}
+
+.card h5{
+    font-weight:bold;
+}
+
+.card p{
+    color:#0d6efd;
+    font-size:18px;
+}
+
+/* Hero */
+
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("images/chauffeur-banner.jpg");
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+    display:flex;
+    align-items:center;
+    color:white;
+    
+}
+
+
+
+.hero h1{
+    font-size:3.2rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+/* Cards */
+
+.service-card{
+    transition:.3s;
+    border:none;
+    border-radius:15px;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.service-card i{
+    font-size:50px;
+}
+
+/* Why choose */
+
+.why-box{
+    text-align:center;
+    padding:25px;
+}
+
+.why-box i{
+    font-size:45px;
+    color:#0d6efd;
+}
+
+/* Booking */
+
+.booking{
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+    padding:30px;
+}
+
+.nav-link a {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+    </style>
+</head>
+
+<body>
+      <!-- navigation bar starts here  -->
+    <section class="container fluid">
+        <!-- row starts -->
+        <div class="row nav-link a">
+            <!-- column starts here -->
+             <!-- the md rep the breakpoint -->
+            <div class="col-md-12"> 
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- link containing company name -->
+                     <a href="" class="navbar-brand text-success"><b>Comflex_Safaris</b></a>
+
+                     <!-- put a button to hold the menu items when screen is small in size -->
+                      <button 
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarcollapse"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- end of the button  -->
+
+                      <!-- Menu items -->
+                       <!-- div for menu items  -->
+                        <!-- starts here -->
+                         <div class="collapse navbar-collapse" id="navbarcollapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-link">HOME</a> 
+                                <a href="Car_hiring.html" class="nav-link ">CAR HIRE</a>
+                                <a href="Chauffered_services.html" class="nav-link active">CHAUFFEURED  SERVICES</a>
+                                <a href="vvip.html" class="nav-link">VVIP SERVICES</a>
+                                 <a href="contactus.html" class="nav-link">CONTACT US</a>
+                            </div>
+                         </div>
+                         <!-- ends here -->
+
+                </nav>
+            </div>
+            <!-- column ends -->
+        </div>
+        <!-- row ends -->
+    </section> 
+
+     <!-- section 1 ends here -->
+     <!-- navigation bar ends here -->
+
+     <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="container">
+
+            <h1>Professional Chauffeured Services</h1>
+
+                <p class="my-4">
+                Travel in comfort and style with our experienced, courteous,
+                and professionally trained chauffeurs.
+                Perfect for business trips, airport transfers,
+                weddings, and special occasions.
+                </p>
+
+                <a href="#booking" class="btn btn-warning btn-lg">
+                Book a Chauffeur
+                </a>
+
+        </div>
+
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="container py-5">
+
+        <div class="text-center mb-5">
+
+            <h2>Our Chauffeur Services</h2>
+
+            <p class="text-muted">
+            Professional transport tailored to your needs.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+        <div class="col-md-4">
+
+            <div class="card service-card p-4 text-center">
+                <i class="bi bi-airplane text-primary"></i>
+
+                <h4 class="mt-3">Airport Transfers</h4>
+
+                <p>
+                Reliable pick-up and drop-off services with punctual professional drivers.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card service-card p-4 text-center">
+            <i class="bi bi-briefcase text-success"></i>
+            <h4 class="mt-3">Corporate Travel</h4>
+            <p>
+            Executive transport for meetings,
+            conferences and business events.
+            </p>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <div class="card service-card p-4 text-center">
+            <i class="bi bi-heart-fill text-danger"></i>
+
+            <h4 class="mt-3">Special Events</h4>
+
+            <p>
+            Luxury transport for weddings,
+            parties and VIP occasions.
+            </p>
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+    <br> <br>
+
+
+    <!-- WHY CHOOSE US -->
+
+    <section class="container py-5">
+
+        <div class="text-center mb-5">
+
+            <h2>Why Choose Our Chauffeurs?</h2>
+
+        </div>
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+        <div class="why-box">
+
+            <i class="bi bi-person-check-fill"></i>
+
+            <h5>Professional</h5>
+
+            <p>Experienced and licensed drivers.</p>
+
+        </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="why-box">
+            <i class="bi bi-clock-history"></i>
+            <h5>Punctual</h5>
+            <p>Always on time for every journey.</p>
+            </div>
+
+         </div>
+
+        <div class="col-md-3">
+
+            <div class="why-box">
+            <i class="bi bi-shield-check"></i>
+            <h5>Safe</h5>
+            <p>Your safety is our highest priority.</p>
+            </div>
+
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="why-box">
+            <i class="bi bi-stars"></i>
+            <h5>Luxury Experience</h5>
+            <p>Comfortable and stress-free travel.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    </section>
+    <br><br>
+
+
+    <!-- BOOKING FORM -->
+
+    <section class="container py-5" id="booking">
+
+        <div class="booking">
+
+            <h2 class="text-center mb-4">
+            Book a Chauffeur
+            </h2>
+
+            <form id="bookingForm">
+
+     <div class="row">
+
+        <div class="col-md-6 mb-3">
+
+            <label>Name</label>
+
+             <input
+             type="text"
+             class="form-control"
+             id="name"
+            required>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+            <label>Phone Number</label>
+
+            <input
+            type="tel"
+            class="form-control"
+            id="phone"
+            required>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+            <label>Email</label>
+
+            <input
+            type="email"
+            class="form-control"
+            id="email"
+            required>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+            <label>Service</label>
+
+            <select class="form-select">
+            <option>Airport Transfer</option>
+            <option>Corporate Travel</option>
+            <option>Wedding</option>
+            <option>VIP Event</option>
+            </select>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+            <label>Pickup Date</label>
+
+            <input
+            type="date"
+            class="form-control"
+            required>
+
+        </div>
+
+        <div class="col-md-6 mb-3">
+
+            <label>Pickup Time</label>
+
+            <input
+            type="time"
+            class="form-control"
+            required>
+
+        </div>
+
+        <div class="col-12 mb-3">
+
+            <label>Additional Notes</label>
+
+            <textarea
+            class="form-control"
+            rows="4"></textarea>
+
+        </div>
+
+        <div class="text-center">
+
+            <button class="btn btn-primary btn-lg">
+            Submit Booking
+            </button>
+
+        </div>
+
+    </div>
+
+            </form>
+
+        </div>
+
+    </section>
+    <br><br>
+
+
+                  <!-- info section starts -->
+    <section class="container-fluid p-5" style="background-color: #23384d;">
+        <!-- row starts -->
+        <div class="row gx-2">
+            <!-- columns start here -->
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Comflex_Safaris</h3>
+                <p class="text-secondary">Car rental company offering city to city tours and transfers with the most comfortable, flexible rides.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Quick Links</h3>
+                <p>
+                    <a href="index.html" class="text-decoration-none text-secondary">Home</a>
+                </p>
+                <p>
+                    <a href="Car_hiring.html" class="text-decoration-none text-secondary">Car Hire</a>
+                </p>
+                <p>
+                    <a href="Chauffered_services.html" class="text-decoration-none text-secondary">Chauffered Services</a>
+                </p>
+                <p>
+                    <a href="vvip.html" class="text-decoration-none text-secondary">VVIP Services</a>
+                </p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Info</h3>
+                
+                <p>
+                    <a href="contactus.html" class="text-decoration-none text-secondary">Contact</a>
+                </p>
+                <p class="text-white">
+                    0791 604 346 <br>
+                    0119 462 373
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Contacts</h3>
+                <p class="text-white"></p>
+                <p class="text-white"></p>
+
+                <!-- links -->
+                 <p>
+                    <a href="https://www.Instagram.com" class="text-decoration-none text-secondary">Instagram</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Facebook.com" class="text-decoration-none text-secondary">Facebook</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Twitter.com" class="text-decoration-none text-secondary">Twitter/X</a>
+                 </p>
+            </div>
+            <!-- columns ends here -->
+        </div>
+        <!-- row ends -->
+    </section>
+    <!-- info section ends -->
+
+    <!-- footer section starts -->
+    <footer class="text-secondary text-center p-3" style="background-color: #343a40;">
+      <h5>Developed by Stacy &copy; 2026.All rights reserved</h5>
+    </footer>
+   <!-- end of footer section -->
+
+    
+</body>
+</html>

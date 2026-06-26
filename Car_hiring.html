@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Hiring | Comflex_Safaris</title>
+      <!-- link external file  -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+
+     <!-- link to my javascript files  -->
+      <link rel="stylesheet" href="js/bootstrap.js">
+
+      <style>
+        body{
+    background:#f8f9fa;
+}
+
+.card{
+    border:none;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    height:400px;
+    object-fit:cover;
+}
+
+.card h5{
+    font-weight:bold;
+}
+
+.card p{
+    color:#0d6efd;
+    font-size:18px;
+}
+
+
+/* Hero */
+.hero{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    height:60vh;
+    color:white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+}
+
+/* Why Us */
+
+.icon-box i{
+    font-size:45px;
+}
+
+.nav-link a {
+    margin-left: 10px;
+    font-weight: 500;
+}
+      </style>
+     
+</head>
+<body>
+     <!-- navigation bar starts here  -->
+    <section class="container fluid ">
+        <!-- row starts -->
+        <div class="row nav-link a">
+            <!-- column starts here -->
+             <!-- the md rep the breakpoint -->
+            <div class="col-md-12"> 
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <!-- link containing company name -->
+                     <a href="" class="navbar-brand text-success"><b>Comflex_Safaris</b></a>
+
+                     <!-- put a button to hold the menu items when screen is small in size -->
+                      <button 
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarcollapse"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- end of the button  -->
+
+                      <!-- Menu items -->
+                       <!-- div for menu items  -->
+                        <!-- starts here -->
+                         <div class="collapse navbar-collapse" id="navbarcollapse">
+                            <div class="navbar-nav">
+                                <a href="index.html" class="nav-link">HOME</a>
+                                <a href="Car_hiring.html" class="nav-link active">CAR HIRE</a>
+                                <a href="Chauffered_services.html" class="nav-link">CHAUFFEURED  SERVICES</a>
+                                <a href="vvip.html" class="nav-link">VVIP SERVICES</a>
+                                 <a href="contactus.html" class="nav-link">CONTACT US</a>
+                            </div>
+                         </div>
+                         <!-- ends here -->
+
+                </nav>
+            </div>
+            <!-- column ends -->
+        </div>
+        <!-- row ends -->
+    </section> 
+
+     <!-- section 1 ends here -->
+     <!-- navigation bar ends here -->
+
+
+     <!-- The Description section  -->
+      <!-- HERO -->
+
+    <section class="hero">
+        <div class="container">
+
+            <h1>Car Hire Services.</h1>
+
+            <p class="display-7">
+                Find the perfect vehicle for your business trip, family vacation, airport transfer, or weekend getaway. 
+                Browse our fleet and choose the car that suits your needs and budget.
+            </p>
+
+        <a href="Car_hiring.html" class="btn btn-warning btn-lg mt-3">
+            Browse Cars
+        </a>
+
+        </div>
+    </section>
+     <br> <br>
+
+   
+     <!-- Rental Information -->
+    <section class="container py-5">
+
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Rental Information</h2>
+        <p class="text-muted">
+            Everything you need to know before hiring a vehicle from Comflex Safaris.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Requirements -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <i class="bi bi-card-checklist display-4 text-primary"></i>
+
+                <h5 class="mt-3">Requirements</h5>
+
+                <ul class="list-unstyled mt-3">
+                    <li> Valid Driving Licence</li>
+                    <li> National ID / Passport</li>
+                    <li> Minimum Age: 23 Years</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Rental Period -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <i class="bi bi-calendar-check display-4 text-success"></i>
+
+                <h5 class="mt-3">Rental Period</h5>
+
+                <ul class="list-unstyled mt-3">
+                    <li> Daily Rentals</li>
+                    <li> Weekly Rentals</li>
+                    <li> Long-Term Rentals</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- What's Included -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <i class="bi bi-shield-check display-4 text-warning"></i>
+
+                <h5 class="mt-3">What's Included</h5>
+
+                <ul class="list-unstyled mt-3">
+                    <li> Fully Insured Vehicles</li>
+                    <li> Regular Maintenance</li>
+                    <li> 24/7 Road Assistance</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Payment -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card border-0 shadow-sm h-100 text-center p-4">
+                <i class="bi bi-credit-card display-4 text-danger"></i>
+
+                <h5 class="mt-3">Payment</h5>
+
+                <ul class="list-unstyled mt-3">
+                    <li> M-Pesa</li>
+                    <li> Bank Transfer</li>
+                    <li> Debit/Credit Card</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<br> <br>
+    <!-- Car Section 1 -->
+     <div class="row g-4">
+
+        <!-- Car 1 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/Blackprado.jpeg" class="card-img-top" alt="Toyota Prado">
+                <div class="card-body text-center">
+                    <h5>Toyota Prado</h5>
+                    <p><strong>Ksh 25,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- car 2  -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/alpfront.jpeg" class="card-img-top" alt="Toyota Alphard">
+                <div class="card-body text-center">
+                    <h5>Toyota Alphard</h5>
+                    <p><strong>Ksh 15,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                </div>
+            </div>
+        </div>
+
+         <!-- Car 3 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/mazda.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Toyota Mazda CX-5 </h5>
+                    <p><strong>Ksh 7,500</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                </div>
+            </div>
+        </div>
+
+                 <!-- Car 4 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/Prado.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Toyota Prado </h5>
+                    <p><strong>Ksh 15,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                </div>
+            </div>
+        </div>
+
+         </div>
+
+         <!-- Car Section 2 -->
+               <div class="row g-4">
+
+        <!-- Car 1 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/V8 Black.jpeg" class="card-img-top" alt="Toyota Prado">
+                <div class="card-body text-center">
+                    <h5>Land Cruiser V8</h5>
+                    <p><strong>Ksh 25,000</strong> / Day</p>
+
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- car 2  -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/Costa.jpeg" class="card-img-top" alt="Toyota Alphard">
+                <div class="card-body text-center">
+                    <h5>Coster</h5>
+                    <p><strong>Ksh 30,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         <!-- Car 3 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/Velfire.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Toyota Velfire </h5>
+                    <p><strong>Ksh 15,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+                 <!-- Car 4 -->
+        <div class="col-md-3">
+            <div class="card shadow">
+                <img src="Images/Honda.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Honda Fit</h5>
+                    <p><strong>Ksh 4,000</strong> / Day</p>
+                    <button class="btn btn-primary w-100">Hire Now</button>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         </div>
+
+<!-- WHY US -->
+
+    <section class="container py-5">
+
+        <h2 class="text-center mb-5">Why Rent From Us?</h2>
+
+         <div class="row text-center">
+
+            <div class="col-md-3">
+
+                <div class="icon-box">
+
+            <i class="bi bi-car-front-fill text-primary"></i>
+
+            <h4 class="mt-3">Modern Fleet</h4>
+
+        <p>Clean and well-maintained vehicles.</p>
+
+                </div>
+
+            </div>
+
+    <div class="col-md-3">
+
+        <div class="icon-box">
+
+            <i class="bi bi-person-badge-fill text-success"></i>
+
+                <h4 class="mt-3">Professional Drivers</h4>
+
+                 <p>Experienced and friendly chauffeurs.</p>
+
+         </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+    <div class="icon-box">
+
+        <i class="bi bi-cash-coin text-warning"></i>
+
+        <h4 class="mt-3">Affordable Rates</h4>
+
+        <p>Competitive prices with no hidden charges.</p>
+
+    </div>
+
+    </div>
+
+    <div class="col-md-3">
+
+        <div class="icon-box">
+
+        <i class="bi bi-headset text-danger"></i>
+
+        <h4 class="mt-3">24/7 Support</h4>
+
+        <p>Always available to assist our clients.</p>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+         <!-- info section starts -->
+    <section class="container-fluid p-5" style="background-color: #23384d;">
+        <!-- row starts -->
+        <div class="row gx-2">
+            <!-- columns start here -->
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Comflex_Safaris</h3>
+                <p class="text-secondary">Car rental company offering city to city tours and transfers with the most comfortable, flexible rides.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Quick Links</h3>
+                <p>
+                    <a href="index.html" class="text-decoration-none text-secondary">Home</a>
+                </p>
+                <p>
+                    <a href="Car_hiring.html" class="text-decoration-none text-secondary">Car Hire</a>
+                </p>
+                <p>
+                    <a href="Chauffered_services.html" class="text-decoration-none text-secondary">Chauffered Services</a>
+                </p>
+                <p>
+                    <a href="vvip.html" class="text-decoration-none text-secondary">VVIP Services</a>
+                </p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Info</h3>
+                
+                <p>
+                    <a href="contactus.html" class="text-decoration-none text-secondary">Contact</a>
+                </p>
+                <p class="text-white">
+                    0791 604 346 <br>
+                    0119 462 373
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Contacts</h3>
+                <p class="text-white"></p>
+                <p class="text-white"></p>
+
+                <!-- links -->
+                 <p>
+                    <a href="https://www.Instagram.com" class="text-decoration-none text-secondary">Instagram</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Facebook.com" class="text-decoration-none text-secondary">Facebook</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Twitter.com" class="text-decoration-none text-secondary">Twitter/X</a>
+                 </p>
+            </div>
+            <!-- columns ends here -->
+        </div>
+        <!-- row ends -->
+    </section>
+    <!-- info section ends -->
+
+    <!-- footer section starts -->
+    <footer class="text-secondary text-center p-3" style="background-color: #343a40;">
+      <h5>Developed by Stacy &copy; 2026.All rights reserved</h5>
+    </footer>
+   <!-- end of footer section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+</body>
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Comflex_Safaris</title>
+
+    <!-- link external file  -->
+     <link rel="stylesheet" href="css/bootstrap.css">
+
+     <!-- link to my javascript files  -->
+      <link rel="stylesheet" href="js/bootstrap.js">
+
+      <script src="js/bootstrap.js"></script>
+
+      <style>
+        .card img{
+    height:400px;
+    object-fit:cover;
+}
+
+    .section2 {
+            position: relative;
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        .section2 .carousel {
+            width: 100%;
+        }
+
+        .section2 .carousel-item img {
+            width: 60%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(0.45);
+        }
+
+        .carousel-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%;
+        }
+        .card {
+    transition: 0.3s ease;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card i {
+    margin-top: 15px;
+}
+
+.book {
+    background-color: rgb(129, 211, 4);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link a {
+    margin-left: 10px;
+    font-weight: 500;
+
+
+}
+      </style>
+
+</head>
+<body>
+    
+     <!-- navigation bar starts here  -->
+    <section class="container fluid ">
+        <!-- row starts -->
+        <div class="row  nav-link a">
+            <!-- column starts here -->
+             <!-- the md rep the breakpoint -->
+            <div class="col-md-12 "> 
+                <nav class="navbar navbar-expand-md navbar-light bg-light ">
+                    <!-- link containing company name -->
+                     <a href="" class="navbar-brand text-success "><b>COMFLEX SAFARIS</b></a>
+
+                     <!-- put a button to hold the menu items when screen is small in size -->
+                      <button 
+                      class="navbar-toggler"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarcollapse"
+                      >
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <!-- end of the button  -->
+
+                      <!-- Menu items -->
+                       <!-- div for menu items  -->
+                        <!-- starts here -->
+                         <div class="collapse navbar-collapse " id="navbarcollapse">
+                            <div class="navbar-nav  ">
+                                <a href="index.html" class="nav-link active ">HOME</a>
+                                <a href="Car_hiring.html" class="nav-link ">CAR HIRE</a>
+                                <a href="Chauffered_services.html" class="nav-link ">CHAUFFEURED SERVICES</a>
+                                <a href="vvip.html" class="nav-link">VVIP SERVICES</a>
+                                <a href="contactus.html" class="nav-link ">CONTACT</a>
+                            </div>
+                         </div>
+                         <!-- ends here -->
+
+                </nav>
+            </div>
+            <!-- column ends -->
+        </div>
+        <!-- row ends -->
+    </section> 
+
+     <!-- section 1 ends here -->
+     <!-- navigation bar ends here -->
+
+
+      <!-- carousel section starts here -->
+    <section class="section2 row">
+        <!-- div to carry the carousel -->
+        <div class="col-md-12">
+            <!-- carousel starts here -->
+            <div class="carousel slide" id="mycarousel" data-bs-ride="carousel">
+                <!-- carousel items -->
+                <div class="carousel-inner">
+                    <!-- item 1 div -->
+                    <div class="carousel-item active" data-bs-interval="600">
+                        <img src="images/Blackprado.jpeg" alt="slide 1 image">
+                    </div>
+
+                    <!-- div for item 2 -->
+                    <div class="carousel-item" data-bs-interval="600">
+                        <img src="images/Prado.jpeg" alt="slide 2 image">
+                    </div>
+
+                    <!-- div for item 3 -->
+                    <div class="carousel-item" data-bs-interval="600">
+                        <img src="images/alphprado.jpeg" alt="slide 3 image">
+                    </div>
+
+                    <!-- div for item 4  -->
+                     <div class="carousel-item" data-bs-interval="600">
+                        <img src="Images/real v8.jpeg" alt="slide 4 image">
+                    </div>
+
+                    <!-- div for item 5  -->
+                     <div class="carousel-item" data-bs-interval="600">
+                        <img src="Images/Bride.jpeg" alt="slide 5 image">
+                    </div>
+                     
+                </div>
+                <!-- end of carousel items -->
+
+                <!-- carousel controls -->
+                <a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary" style="height: 40px; width: 40px; border-radius: 50%;"></span>
+                </a>
+                <a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary" style="height: 40px; width: 40px; border-radius: 50%;"></span>
+                </a>
+                <!-- end of carousel controls -->
+            </div>
+            <!-- carousel ends here -->
+
+            <!-- text on top of carousel -->
+            <div class="carousel-text">
+                <h1 class="display-5 fw-bold mb-3 text-dark"  ><b>Your Perfect Ride Starts Here!!</b></h1>
+                <p class="lead mb-0 text-secondary ">Choose from our premium fleet at unbeatable daily rates.</p>
+            </div>
+            <!-- end of text -->
+        </div>
+    </section><br>
+    <!-- carousel section ends here -->
+     
+
+        <section class="container mt-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+             <h4 class="fw-bold fs-1 pb-1 text-success"> Our Featured Services</h4>
+            </div>
+
+            <div class="row">
+                <!-- card 1 -->
+                 <div class="col-md-4 ">
+                <div class="card pharmacy-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5 class="card-title fw-bold mb-0">Car Hiring</h5>
+                            <span class="open-badge text-success book">Book Now!</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text mb-2">
+                           Rent reliable cars in Nairobi with competitive daily or monthly rates. Choose from our wide fleet of 4x4s, sedans, and SUVs. Book your self-drive now!
+                        </p>
+                    
+                        <p class="text-secondary">
+                            &copy; Transparent Pricing: <br>
+                            &copy; Flexible Options: 
+                        </p>
+                        <br>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex gap-2">
+                            <a href="Car_hiring.html" class="btn btn-outline-warning bg-warning btn-sm flex-grow-1 text-light">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+              <!-- card 2 -->
+            <div class="col-md-4 col-lg-4">
+                <div class="card pharmacy-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5 class="card-title fw-bold mb-0">Chauffered Services</h5>
+                            <span class="open-badge text-success book">Book Now!</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text  mb-2"> Get your dream car from us by requesting review of a car you like. Get to even choose a chauffer by your own!
+                        </p>
+
+                        <p class="text-secondary">
+                            &copy; Proffessional Drivers <br>
+                            &copy; Immediate review <br> <br>
+                        </p>
+    
+                    </div>
+                    <div class="card-footer">
+            <div class="d-flex gap-2">
+                            <a href="Chauffered_services.html" class="btn btn-outline-warning bg-warning text-light flex-grow-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             
+            <!-- card 3  -->
+            <div class="col-md-4 col-lg-4">
+                <div class="card pharmacy-card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5 class="card-title fw-bold mb-0">VVIP Services</h5>
+                            <span class="open-badge text-success book">Book Now!</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text  mb-2"> Elite Personel security delivered by distinguished proffessionals.
+                        </p>
+
+                        <p class="text-secondary">
+                            &copy; Proffessional Drivers <br>
+                            &copy; Discreet Protection  <br>  <br><br>
+                        </p>
+    
+                    </div>
+                    <div class="card-footer">
+            <div class="d-flex gap-2">
+                            <a href="vvip.html" class="btn btn-outline-warning bg-warning text-light btn-sm flex-grow-1">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <br><br>
+
+            
+            <!-- WHY CHOOSE US -->
+              <section class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold text-success">Why Choose Us?</h2>
+        <p class="text-muted">
+            At <strong class="bold text-dark">Comflex Safaris</strong>, we are committed to providing safe, reliable, and exceptional transport services.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm border-0 p-3">
+                <i class="bi bi-car-front-fill display-4 text-primary"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Modern Fleet</h5>
+                    <p class="card-text">
+                        Choose from a wide range of clean, comfortable, and well-maintained vehicles.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm border-0 p-3">
+                <i class="bi bi-person-badge-fill display-4 text-success"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Professional Chauffeurs</h5>
+                    <p class="card-text">
+                        Our experienced drivers ensure every trip is safe, smooth, and stress-free.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm border-0 p-3">
+                <i class="bi bi-cash-coin display-4 text-warning"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Affordable Pricing</h5>
+                    <p class="card-text">
+                        Enjoy competitive daily rates with no hidden charges.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card h-100 text-center shadow-sm border-0 p-3">
+                <i class="bi bi-headset display-4 text-danger"></i>
+                <div class="card-body">
+                    <h5 class="card-title">24/7 Support</h5>
+                    <p class="card-text">
+                        Our customer support team is available anytime to assist you.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <br> <br>
+
+            <!-- The featured cars  -->
+            <div class="row g-4">
+
+        <!-- Car 1 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/Prado.jpeg" class="card-img-top" alt="Toyota Prado">
+                <div class="card-body text-center">
+                    <h5>Toyota Prado</h5>
+                    <p><strong>Ksh 25,000</strong> / Day</p>
+                                                    <a href="Car_hiring.html" class="btn btn-outline-success bg-success text-light btn-sm flex-grow-1">More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- car 2  -->
+        <div class="col-md-4">
+        
+            <div class="card shadow">
+                <img src="Images/alpfront.jpeg" class="card-img-top" alt="Toyota Alphard">
+                <div class="card-body text-center">
+                    <h5>Toyota Alphard</h5>
+                    <p><strong>Ksh 15,000</strong> / Day</p>
+                                                    <a href="Chauffered_services.html" class="btn btn-outline-warning btn-sm flex-grow-1 bg-success text-light">More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         <!-- Car 3 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/Blackprado.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Toyota Prado</h5>
+                    <p><strong>Ksh 25,000</strong> / Day</p>
+                                                <a href="vvip.html" class="btn btn-outline-warning  btn-sm flex-grow-1 text-light bg-success " >More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         </div>
+
+
+                     <!-- The featured cars (2)  -->
+            <div class="row g-4">
+        <!-- Car 1 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/Bride.jpeg" class="card-img-top" alt="Toyota Prado">
+                <div class="card-body text-center">
+                    <h5>Wedding Fleet</h5>
+                    <p><strong>Price Range</strong> / Day</p>
+                                                    <a href="vvip.html" class="btn btn-outline-success bg-success text-light btn-sm flex-grow-1">More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- car 2  -->
+        <div class="col-md-4">
+        
+            <div class="card shadow">
+                <img src="Images/v8side.jpeg" class="card-img-top" alt="Toyota Alphard">
+                <div class="card-body text-center">
+                    <h5>Land Cruiser V8</h5>
+                    <p><strong>Ksh 25,000</strong> / Day</p>
+                                                    <a href="vvip.html" class="btn btn-outline-warning btn-sm flex-grow-1 bg-success text-light">More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         <!-- Car 3 -->
+        <div class="col-md-4">
+            <div class="card shadow">
+                <img src="Images/safari.jpeg" class="card-img-top" alt="Toyota Mazda CX-5">
+                <div class="card-body text-center">
+                    <h5>Toyota Alphard & Land Cruiser Safari</h5>
+                    <p><strong>Price Range</strong> / Day</p>
+                                                <a href="Chauffered_services.html" class="btn btn-outline-warning  btn-sm flex-grow-1 text-light bg-success " >More Details!</a>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+
+         </div>
+
+        </section>
+        <br> <br>
+
+              <!-- info section starts -->
+    <section class="container-fluid p-5" style="background-color: #23384d;">
+        <!-- row starts -->
+        <div class="row gx-2">
+            <!-- columns start here -->
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Comflex_Safaris</h3>
+                <p class="text-secondary">Car rental company offering city to city tours and transfers with the most comfortable, flexible rides.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Quick Links</h3>
+                <p>
+                    <a href="index.html" class="text-decoration-none text-secondary">Home</a>
+                </p>
+                <p>
+                    <a href="Car_hiring.html" class="text-decoration-none text-secondary">Car Hire</a>
+                </p>
+                <p>
+                    <a href="Chauffered_services.html" class="text-decoration-none text-secondary">Chauffered Services</a>
+                </p>
+                <p>
+                    <a href="vvip.html" class="text-decoration-none text-secondary">VVIP Services</a>
+                </p>
+
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Info</h3>
+                
+                <p>
+                    <a href="contactus.html" class="text-decoration-none text-secondary">Contact</a>
+                </p>
+                <p class="text-white">
+                    0791 604 346 <br>
+                    0119 462 373
+                </p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3 class="text-white fw-bold">Contacts</h3>
+                <p class="text-white"></p>
+                <p class="text-white"></p>
+
+                <!-- links -->
+                 <p>
+                    <a href="https://www.Instagram.com" class="text-decoration-none text-secondary">Instagram</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Facebook.com" class="text-decoration-none text-secondary">Facebook</a>
+                 </p>
+                 <p>
+                    <a href="https://www.Twitter.com" class="text-decoration-none text-secondary">Twitter/X</a>
+                 </p>
+            </div>
+            <!-- columns ends here -->
+        </div>
+        <!-- row ends -->
+    </section>
+    <!-- info section ends -->
+
+    <!-- footer section starts -->
+    <footer class="text-secondary text-center p-3" style="background-color: #343a40;">
+      <h5>Developed by Stacy &copy; 2026.All rights reserved</h5>
+    </footer>
+   <!-- end of footer section -->
+    
+     
+</body>
+</html>
